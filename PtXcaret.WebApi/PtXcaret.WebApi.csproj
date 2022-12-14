@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PtXcaret.Business\PtXcaret.Business.csproj" />
+    <ProjectReference Include="..\PtXcaret.Models\PtXcaret.Models.csproj" />
+    <ProjectReference Include="..\PtXcaret.Services\PtXcaret.Services.csproj" />
+  </ItemGroup>
+
+
+</Project>
